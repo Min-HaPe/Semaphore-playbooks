@@ -3,14 +3,14 @@
   hosts: Joomla
 
   tasks:
-  - name: Ping Host
-    ansible.builtin.ping:
-    notify: Message
+    - name: Ping Host
+      ping:
+      notify: Message
 
   handlers:
-  - name: Message
-    ansible.builtin.debug:
-      msg: "Host is alive"
+    - name: Message
+      debug:
+        msg: "Host is alive"
 
 
 ...
