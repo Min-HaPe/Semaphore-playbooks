@@ -1,8 +1,8 @@
 ---
-hosts: ubuntu
+  hosts: ubuntu
 
-tasks:
-  - name: Ping host
-    ping: 
+  tasks:
+    - name: Ping host
+      ping: 
 
 ...
