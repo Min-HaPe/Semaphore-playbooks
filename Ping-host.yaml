@@ -3,8 +3,7 @@
   hosts: Ubuntu
 
   tasks:
-    - name: Update apt
-      apt:
-      update_cache: true
+    - name: Ping host
+      ping: 
 
 ...
