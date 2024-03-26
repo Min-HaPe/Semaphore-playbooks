@@ -4,7 +4,7 @@
 
   tasks:
     - name: Ping hosts
-        ping:
+      ping:
       when: ping == "Pong"
         msg: Message
 
