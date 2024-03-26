@@ -3,14 +3,8 @@
   hosts: Ubuntu
 
   tasks:
-    - name: Ping hosts
-      ping:
-      when: ping == "Pong"
-      msg: Message
+    - name: Update apt
+      apt:
+      update_cache: true
 
-
-  handlers:
-    - name: Message
-        debug:
-        msg: "Host is alive!"
 ...
