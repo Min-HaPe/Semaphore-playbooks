@@ -5,7 +5,7 @@
   tasks:
   - name: Ping Host
     ansible.builtin.ping:
-      notify: Message
+    notify: Message
 
   handlers:
   - name: Message
