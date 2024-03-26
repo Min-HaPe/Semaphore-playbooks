@@ -12,5 +12,5 @@
   handlers:
     - name: Message
       debug:
-        msg: "Host is alive!"
+      msg: "Host is alive!"
 ...
