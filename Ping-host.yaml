@@ -4,13 +4,13 @@
 
   tasks:
     - name: Ping hosts
-      ping:
+        ping:
       when: ping == "Pong"
-      msg: Message
+        msg: Message
 
 
   handlers:
     - name: Message
       debug:
-      msg: "Host is alive!"
+        msg: "Host is alive!"
 ...
