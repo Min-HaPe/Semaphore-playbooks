@@ -5,7 +5,6 @@
   tasks:
   - name: Ping Host
     ansible.builtin.ping:
-      when: ping == "Pong"   
       notify: Message
 
   handlers:
