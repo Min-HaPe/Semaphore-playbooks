@@ -15,7 +15,7 @@
       ping:
       when: 
         - ping == "Pong" 
-     notify: Message
+      notify: Message
   
   handlers:
     - name: Message
