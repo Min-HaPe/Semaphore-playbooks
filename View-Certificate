@@ -1,9 +1,18 @@
+---
+- name: View Cert
+  hosts: Joomla
 
-- name: Get information on generated certificate
-  openssl_certificate_info:
+  tasks:
+   - name: Get information on generated certificate
+      openssl_certificate_info:
     path: /etc/ssl/crt/ansible.com.crt
   register: result
 
-- name: Dump information
+  - name: Dump information
   debug:
     var: result
+
+
+
+
+...
