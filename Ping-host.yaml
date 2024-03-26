@@ -6,7 +6,7 @@
     - name: Ping hosts
       ping:
       when: ping == "Pong"
-        msg: Message
+      msg: Message
 
 
   handlers:
