@@ -1,6 +1,6 @@
 ---
 - name: Ping-Host
-  hosts: Ubuntu
+  hosts: ubuntu
 
   tasks:
     - name: Ping host
