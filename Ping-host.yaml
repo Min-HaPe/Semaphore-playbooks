@@ -1,15 +1,15 @@
 ---
-hosts: Ubuntu
+  hosts: Ubuntu
 
-tasks:
-  - name: Ping hosts
-    ping:
-    when: ping == "Pong"
-    msg: Message
+  tasks:
+    - name: Ping hosts
+      ping:
+      when: ping == "Pong"
+      msg: Message
 
 
-handlers:
-  - name: Message
-    debug:
-    msg: "Host is alive!"
+  handlers:
+    - name: Message
+      debug:
+      msg: "Host is alive!"
 ...
