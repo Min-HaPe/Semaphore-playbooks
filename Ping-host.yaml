@@ -7,13 +7,13 @@
       ping:
       when: 
         - ping == "Pong"
-      msg: Message
+      notify: Message
 
 
   handlers:
     - name: Message
       debug:
-      msg: "Host is alive!"
+        msg: "Host is alive!"
 
 ...
 
