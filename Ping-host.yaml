@@ -1,6 +1,6 @@
 ---
 - name: Ping
-  hosts: Joomla, Apache-server
+  hosts: Joomla, Apache, IIS
 
   tasks:
     - name: Ping Host
