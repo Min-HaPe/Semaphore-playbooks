@@ -1,6 +1,6 @@
 ---
 - name: Ping
-  hosts: Joomla
+  hosts: Joomla, 10.0.0.17
 
   tasks:
     - name: Ping Host
